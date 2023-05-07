@@ -1,0 +1,81 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": ["Hey" , "Hello" , "What's up?", "Hill" , "Good day", "greetings"],
+            "responses": ["Hello Sir!", "Hey Florian!"]
+        },
+        {
+            "tag": "plot_chart",
+            "patterns": ["I want you to plot a stock price!", "Please plot a chart", "Plot a stock","Plot a stock price","Show me a stock price chart","Candlestick chart","plot price"],
+            "responses": ["Plotting Chart"]
+        },
+        {
+            "tag": "add_portfolio",
+            "patterns": ["Add a stock to my portfolio","Add a stock","Add a stock to my list","I want to add something to my portfolio","I want to add a new stock","I want to add to my portfolio","I have a new stock","I want to add something to my portfolio","I bought a new stock","I bought a stock"],
+            "responses": ["Adding Stock"]
+        },
+        {
+            "tag": "remove_portfolio",
+            "patterns": ["Remove a stock from my portfolio", "Remove a stock","Remove a stock from my list", "I want to remove something from my portfolio", "I want to remove a stock","I want to remove from my portfolio","I sold an old stock","I want to remove something from my portfolio","I sold a stock","I am selling a stock"],
+            "responses": ["Removing Stock"]
+        },
+        {
+            "tag": "show_portfolio",
+            "patterns": ["Can you display my portfolio, please?","I'd like to share my portfolio with you. Can you show it?","Please show me my portfolio.", "Could you exhibit my portfolio for me?","Can you help me display my portfolio?","Show my portfolio, please.","I need to present my portfolio, could you assist me?","Let's take a look at my portfolio together.","Can you guide me in showcasing my portfolio?","Please show my portfolio on the screen."],
+            "responses": ["Showing Portfolio"],
+            "context_set": ""
+        },
+        {
+            "tag": "stock_price",
+            "patterns": ["nonsense"],
+            "responses": ["Can you display the stock price?",
+                            "What is the current price of the stock?",
+                            "Please show me the stock price.",
+                            "What is the value of the stock at the moment?",
+                            "Could you give me the latest stock price?",
+                            "Show me the price of the stock, please.",
+                            "I'm interested in the stock price. Can you show it to me?",
+                            "Please display the current value of the stock.",
+                            "What's the stock price right now?",
+                            "Can you provide me with the stock's current market value?"],
+            "context_set": ""
+        },
+        {
+            "tag": "portfolio_worth",
+            "patterns": ["Can you display the worth of my portfolio?",
+            "What is the current value of my portfolio?",
+            "Please show me the worth of my portfolio.",
+            "How much is my portfolio worth right now?",
+            "Could you give me the latest value of my portfolio?",
+            "Show me the worth of my portfolio, please.",
+            "I'm interested in the value of my portfolio. Can you show it to me?",
+            "Please display the current market value of my portfolio.",
+            "What's the worth of my portfolio right now?",
+            "Can you provide me with the current worth of my portfolio?"],
+            "responses": ["Portfolio Worth"],
+            "context_set": ""
+        },
+        {
+            "tag": "portfolio_gains",
+            "patterns": ["Can you show me the gains of my portfolio?",
+            "What are the gains of my portfolio?",
+            "Please display the gains of my portfolio.",
+            "How much has my portfolio gained?",
+            "Could you give me the latest portfolio gains?",
+            "Show me the portfolio gains, please.",
+            "I'm interested in the gains of my portfolio. Can you show them to me?",
+            "Please display the current portfolio gains.",
+            "What's the percentage increase in my portfolio?",
+            "Can you provide me with the gains of my portfolio?"],
+            "responses": ["Portfolio Gains"],
+            "context_set": ""
+        },
+        {
+            "tag": "bye",
+            "patterns": ["bye","goodbye","i have to go","end"],
+            "responses": ["goodbye"],
+            "context_set": ""
+        }
+    ]
+}
